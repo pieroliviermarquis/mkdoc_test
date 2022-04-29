@@ -2,4 +2,4 @@ site_name: Documentation
 theme:
   name: material
   palette:
-    primary: orange
+    primary: deep purple
