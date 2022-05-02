@@ -2,4 +2,18 @@ site_name: Documentation
 theme:
   name: material
   palette:
-    primary: orange
+    primary: deep purple
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+  
+extra_css:
+  - stylesheets/extra.css
