@@ -1,0 +1,22 @@
+:root>* {
+    --md-code-bg-color: #2b292e;
+    --md-code-fg-color: #bbb5d1;
+    --md-code-hl-color: yellow;
+    --md-code-hl-number-color: rgb(24, 219, 219);
+    /* --md-code-hl-special-color*/
+    --md-code-hl-function-color: rgb(197, 71, 255);
+    --md-code-hl-constant-color: rgb(50, 214, 124);
+    --md-code-hl-keyword-color: rgb(158, 123, 253);
+    /* --md-code-hl-string-color
+    --md-code-hl-name-color   */
+    --md-code-hl-operator-color: #bebdc2;
+    --md-code-hl-punctuation-color: #bebdc2;
+    --md-code-hl-comment-color: #bebdc2;
+    --md-code-hl-generic-color: #bebdc2;
+    --md-code-hl-variable-color: #bebdc2;
+}
+
+.md-typeset code {
+    border-radius: 0.2rem;
+    padding: 0.125rem 0.2rem;
+}
